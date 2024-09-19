@@ -1,3 +1,4 @@
+/* General reset and body styling */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,85 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7; /* Soft light gray background for entire app */
+  color: #333; /* Default text color */
 }
 
+/* Styling for code elements */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Headings */
+h1, h2, h3, img {
+  padding: 20px 0;
+}
+
+/* Main Section Titles */
+h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ff0000; /* Bright red color for main section headings */
+  border-bottom: 3px solid #ff0000; /* Underline to highlight section headings */
+  padding-bottom: 15px;
+}
+
+/* Subsection Headings */
+h3 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff0000; /* Red color to differentiate subsections */
+  border-bottom: 3px solid #ff0000; /* Underline for subsections */
+  padding-bottom: 10px;
+}
+
+/* Subsection Secondary Headings */
+h5 {
+  text-align: left;
+  font-size: 1.8rem;
+  color: #555; /* Lighter gray for subsection headings */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666; /* Softer gray for body text */
+  margin-bottom: 20px;
+}
+
+/* Service Images */
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Custom Row and Col styling for Services Section */
+.services-section {
+  padding: 50px 0;
+  background-color: #ffffff; /* White background for services section to contrast with page background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Align text to the left inside rows */
+.services-text {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* Horizontal layout styling */
+.services-text h3, .services-text h5 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
